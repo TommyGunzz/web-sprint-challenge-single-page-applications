@@ -1,5 +1,5 @@
 import React from "react";
-import dog from "../images/pizza-dog.gif";
+import pizza from "../images/Pizza.jpg";
 import styled from "styled-components";
 
 const TrackerContainer = styled.div`
@@ -13,8 +13,8 @@ const Tracker = () => {
   return (
     <>
       <TrackerContainer>
-        <h2>As long as our guard dog doesn't eat it first your pizza is on it's way</h2>
-        <img alt="delicious-pizza" className="pizza-hero" src={dog} />
+        <h2>Sorry...your Card has been declined, please call your local Lambda Eats for cash delivery, No Contact Pizza.. 0 Calories.</h2>
+        <img alt="delicious-pizza" className="pizza-hero" src={pizza} />
       </TrackerContainer>
     </>
   );
