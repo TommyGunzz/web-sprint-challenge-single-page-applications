@@ -24,15 +24,15 @@ const Tracker = () => {
     <>
     <Route>
         <FormHeader>
-        <h2>Order Form</h2>
+        <h2>Track Your Order!</h2>
         <div className="home-button">
           <Link to="/">
             <button>Home</button>
-          </Link>{" "}
+          </Link>
           
           <Link to="/pizza-form/"><button>Edit Order
           </button>
-        </Link>{" "}
+        </Link>
         </div>
       </FormHeader>
     </Route>
