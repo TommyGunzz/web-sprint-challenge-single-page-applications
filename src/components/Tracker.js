@@ -29,6 +29,10 @@ const Tracker = () => {
           <Link to="/">
             <button>Home</button>
           </Link>{" "}
+          
+          <Link to="/pizza-form/"><button>Edit Order
+          </button>
+        </Link>{" "}
         </div>
       </FormHeader>
     </Route>
