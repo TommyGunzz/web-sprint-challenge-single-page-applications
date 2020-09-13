@@ -123,6 +123,7 @@ const PizzaForm = (props) => {
 
   return (
     <>
+    <Route>
       <FormHeader>
         <h2>Order Form</h2>
         <div className="home-button">
@@ -131,7 +132,7 @@ const PizzaForm = (props) => {
           </Link>{" "}
         </div>
       </FormHeader>
-
+    </Route>
       <form onSubmit={formSubmit} className="form-container">
         <label htmlFor="size">
           Choice of size Required
