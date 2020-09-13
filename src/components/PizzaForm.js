@@ -275,6 +275,7 @@ const PizzaForm = (props) => {
       </pre>
       <br />
       <br />
+      <Route>
       <Link to="/pizza-tracker">
         <button
           disabled={formSubmit}
@@ -284,6 +285,7 @@ const PizzaForm = (props) => {
           Track your order
         </button>
       </Link>
+      </Route>
     </>
   );
 };
