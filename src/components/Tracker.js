@@ -10,16 +10,18 @@ const TrackerContainer = styled.div`
   align-items: center;
 `;
 
+const FormHeader = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 3%;
+color: #3d040b;
+`;
+
 const Tracker = () => {
 
-    const FormHeader = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
-    color: #3d040b;
-  `;
+   
   return (
     <>
     <Route>
