@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe("Tests our home inputs", function () {
     beforeEach(function () {
       cy.visit("http://localhost:3000/");
@@ -9,7 +10,8 @@ describe("Tests our home inputs", function () {
         .should("have.value", "darksurfer954@gmail.com");
     });
   });
-  describe("checking boxes", function () {
+
+describe("checking boxes", function () {
     beforeEach(function () {
       cy.visit("http://localhost:3000/pizza-form/");
     });
@@ -17,7 +19,9 @@ describe("Tests our home inputs", function () {
       cy.get('[type="checkbox"]').check().should("be.checked");
     });
   });
-  describe("Tests special instructions text-box", function () {
+
+  
+describe("Tests special instructions text-box", function () {
     beforeEach(function () {
       cy.visit("http://localhost:3000/pizza-form/");
     });
@@ -27,7 +31,8 @@ describe("Tests our home inputs", function () {
         .should("have.value", "extra cheese please");
     });
   });
-  describe("Tests form-submit", function () {
+
+describe("Tests form-submit", function () {
     beforeEach(function () {
       cy.visit("http://localhost:3000/pizza-form/");
       cy.get("#size").select("large").should("have.value", "large");
@@ -37,7 +42,8 @@ describe("Tests our home inputs", function () {
       cy.get('[data-cy="submit-order-button"]').click();
     });
   });
-  describe("Tests tracker", function () {
+
+describe("Tests tracker", function () {
     beforeEach(function () {
       cy.visit("http://localhost:3000/pizza-form/");
       cy.get("#size").select("large").should("have.value", "large");
